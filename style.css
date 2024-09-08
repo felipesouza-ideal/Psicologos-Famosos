@@ -45,3 +45,11 @@
 .resultado a:hover {
   text-decoration: underline;
 }
+
+/* Define um container centralizado com largura máxima */
+.container {
+  width: 100%;
+  max-width: 1200px; /* Largura máxima do site, ajuste conforme necessário */
+  margin: 0 auto; /* Centraliza o container horizontalmente */
+  padding: 0 20px; /* Adiciona um pequeno espaçamento interno (padding) nas laterais */
+}
