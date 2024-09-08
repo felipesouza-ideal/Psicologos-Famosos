@@ -123,9 +123,21 @@ h1 {
 
 /* Rodapé */
 footer {
-  margin-top: auto;
-  padding: 2rem 0;
+  width: 100%; /* Garante que o rodapé ocupe 100% da largura da página */
+  max-width: 600px; /* Define uma largura máxima */
+  margin: 0 auto; /* Centraliza o rodapé */
+  padding: 2rem 0; /* Espaçamento interno */
   font-size: 0.875rem;
   color: #5f6368;
   text-align: center;
+  margin-top: auto; /* Garante que o rodapé fique no final da página */
 }
+
+/* Ajuste responsivo */
+@media (max-width: 768px) {
+  footer {
+    padding: 1.5rem 1rem; /* Reduz o padding em telas menores */
+    font-size: 0.75rem; /* Ajusta o tamanho da fonte em dispositivos menores */
+  }
+}
+
