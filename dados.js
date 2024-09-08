@@ -142,6 +142,132 @@ let dados = [
     descricao: "Conhecido pelo controverso Experimento da Prisão de Stanford, Zimbardo explorou como as circunstâncias podem influenciar o comportamento humano, levando indivíduos comuns a cometer atos incomuns.",
     link: "https://pt.wikipedia.org/wiki/Philip_Zimbardo",
     tags: "psicologia social comportamento experimento prisao de stanford"
+  },
+  {
+    titulo: "Noam Chomsky",
+    descricao: "Lingüista e psicólogo cognitivo, Chomsky revolucionou a psicologia da linguagem com sua teoria da gramática gerativa, argumentando que a capacidade linguística é inata aos seres humanos.",
+    link: "https://pt.wikipedia.org/wiki/Noam_Chomsky",
+    tags: "linguística psicologia cognitiva gramática gerativa"
+  },
+  {
+    titulo: "Anna Freud",
+    descricao: "Filha de Sigmund Freud, Anna Freud desenvolveu a psicanálise infantil e trouxe importantes contribuições para o estudo dos mecanismos de defesa do ego.",
+    link: "https://pt.wikipedia.org/wiki/Anna_Freud",
+    tags: "psicanálise infantil mecanismos de defesa psicoterapia"
+  },
+  {
+    titulo: "Donald Winnicott",
+    descricao: "Psicanalista britânico que contribuiu significativamente para a teoria do desenvolvimento infantil. Ele é conhecido por suas ideias sobre o 'ambiente facilitador' e o 'objeto transicional'.",
+    link: "https://pt.wikipedia.org/wiki/Donald_Winnicott",
+    tags: "desenvolvimento infantil ambiente facilitador objeto transicional"
+  },
+  {
+    titulo: "Franz Mesmer",
+    descricao: "Médico alemão cujas teorias sobre o magnetismo animal foram precursoras da hipnose. Embora controverso, o mesmerismo influenciou a psicoterapia no século XIX.",
+    link: "https://pt.wikipedia.org/wiki/Franz_Mesmer",
+    tags: "hipnose mesmerismo magnetismo animal"
+  },
+  {
+    titulo: "Wilhelm Wundt",
+    descricao: "Considerado o fundador da psicologia experimental, Wundt estabeleceu o primeiro laboratório de psicologia e promoveu a introspecção como método científico para estudar a mente.",
+    link: "https://pt.wikipedia.org/wiki/Wilhelm_Wundt",
+    tags: "psicologia experimental introspecção mente"
+  },
+  {
+    titulo: "Max Wertheimer",
+    descricao: "Psicólogo alemão, fundador da psicologia da Gestalt, Wertheimer estudou como as pessoas percebem padrões e integram estímulos em formas significativas.",
+    link: "https://pt.wikipedia.org/wiki/Max_Wertheimer",
+    tags: "psicologia da gestalt percepção padrões"
+  },
+  {
+    titulo: "Kurt Lewin",
+    descricao: "Psicólogo social que foi pioneiro na teoria de campo e no estudo das dinâmicas de grupo. Ele investigou como o ambiente e as forças sociais afetam o comportamento.",
+    link: "https://pt.wikipedia.org/wiki/Kurt_Lewin",
+    tags: "psicologia social teoria de campo dinâmicas de grupo"
+  },
+  {
+    titulo: "Hugo Münsterberg",
+    descricao: "Psicólogo alemão-americano, conhecido por suas contribuições para a psicologia aplicada, incluindo psicologia industrial e psicologia forense.",
+    link: "https://pt.wikipedia.org/wiki/Hugo_M%C3%BCnsterberg",
+    tags: "psicologia aplicada psicologia industrial psicologia forense"
+  },
+  {
+    titulo: "Hermann Ebbinghaus",
+    descricao: "Psicólogo alemão pioneiro no estudo da memória. Ebbinghaus desenvolveu a famosa curva do esquecimento e investigou como o cérebro processa e retém informações.",
+    link: "https://pt.wikipedia.org/wiki/Hermann_Ebbinghaus",
+    tags: "memória curva do esquecimento retenção"
+  },
+  {
+    titulo: "George Kelly",
+    descricao: "Psicólogo americano, criador da psicologia dos construtos pessoais. Kelly sugeriu que as pessoas constroem e testam teorias sobre o mundo em que vivem.",
+    link: "https://pt.wikipedia.org/wiki/George_Kelly_(psychologist)",
+    tags: "construtos pessoais psicologia cognitiva construtivismo"
+  },
+  {
+    titulo: "Fritz Perls",
+    descricao: "Fundador da terapia Gestalt, Perls promoveu uma abordagem experiencial e holística para a psicoterapia, enfatizando a autoconsciência e o momento presente.",
+    link: "https://pt.wikipedia.org/wiki/Fritz_Perls",
+    tags: "terapia gestalt autoconsciência psicoterapia experiencial"
+  },
+ 
+  {
+    titulo: "Francis Galton",
+    descricao: "Cientista britânico pioneiro em psicometria e eugenia. Galton foi um dos primeiros a aplicar métodos estatísticos ao estudo das diferenças humanas.",
+    link: "https://pt.wikipedia.org/wiki/Francis_Galton",
+    tags: "psicometria eugenia diferenças humanas"
+  },
+  {
+    titulo: "Alfred Binet",
+    descricao: "Psicólogo francês que desenvolveu o primeiro teste de inteligência, o precursor do teste de QI. Seu trabalho abriu caminho para a psicometria moderna.",
+    link: "https://pt.wikipedia.org/wiki/Alfred_Binet",
+    tags: "inteligência teste de qi psicometria"
+  },
+  {
+    titulo: "Lewis Terman",
+    descricao: "Psicólogo americano que revisou o teste de QI de Binet, criando o famoso teste Stanford-Binet. Terman foi um pioneiro no estudo da inteligência em crianças superdotadas.",
+    link: "https://pt.wikipedia.org/wiki/Lewis_Terman",
+    tags: "inteligência teste de qi crianças superdotadas"
+  },
+  {
+    titulo: "David Wechsler",
+    descricao: "Psicólogo americano que desenvolveu uma série de testes de inteligência amplamente usados, incluindo o WAIS e o WISC, que medem diferentes aspectos do QI.",
+    link: "https://pt.wikipedia.org/wiki/David_Wechsler",
+    tags: "inteligência teste de qi wais wisc"
+  },
+  {
+    titulo: "Charles Spearman",
+    descricao: "Psicólogo britânico que desenvolveu a teoria do fator geral de inteligência, ou 'g'. Spearman sugeriu que a inteligência subjacente pode ser medida como uma única variável.",
+    link: "https://pt.wikipedia.org/wiki/Charles_Spearman",
+    tags: "inteligência fator g teoria de inteligência"
+  },
+  {
+    titulo: "Howard Gardner",
+    descricao: "Psicólogo americano conhecido por sua teoria das inteligências múltiplas, que propõe que a inteligência não é uma única habilidade, mas um conjunto de diferentes capacidades.",
+    link: "https://pt.wikipedia.org/wiki/Howard_Gardner",
+    tags: "inteligências múltiplas capacidades inteligência emocional"
+  },
+  {
+    titulo: "Robert Sternberg",
+    descricao: "Psicólogo americano famoso por sua teoria tríade da inteligência, que foca na interação entre três tipos de inteligência: analítica, criativa e prática.",
+    link: "https://pt.wikipedia.org/wiki/Robert_Sternberg",
+    tags: "inteligência tríade inteligência analítica criativa prática"
+  },
+  {
+    titulo: "Henry Murray",
+    descricao: "Psicólogo americano que desenvolveu a teoria das necessidades e o Teste de Apercepção Temática (TAT), usado para revelar os desejos, medos e outros aspectos inconscientes.",
+    link: "https://pt.wikipedia.org/wiki/Henry_Murray",
+    tags: "teoria das necessidades tat avaliação projetiva"
+  },
+  {
+    titulo: "Paul Ekman",
+    descricao: "Psicólogo americano que é considerado o pioneiro no estudo das emoções e expressões faciais. Ekman catalogou as expressões faciais universais que correspondem a emoções básicas.",
+    link: "https://pt.wikipedia.org/wiki/Paul_Ekman",
+    tags: "emoções expressões faciais psicologia social"
+  },
+  {
+    titulo: "Daniel Kahneman",
+    descricao: "Psicólogo ganhador do Nobel, Kahneman revolucionou a psicologia econômica com sua pesquisa sobre como as pessoas tomam decisões em situações de incerteza.",
+    link: "https://pt.wikipedia.org/wiki/Daniel_Kahneman",
+    tags: "psicologia econômica tomada de decisão heurísticas"
   }
-  // Continue com outros psicólogos conforme necessário.
 ];
