@@ -1,20 +1,21 @@
 let dados = [
-    {
-        titulo: "Rayssa Leal",
-        descricao: "Rayssa Leal, a Fadinha, é uma skatista brasileira que conquistou o mundo com seu talento e carisma. Aos poucos anos, ela já coleciona títulos e inspira milhões de jovens.",
-        link: "https://pt.wikipedia.org/wiki/Rayssa_Leal",
-        tags: "skate fada sk8"
-    },
-    {
-        titulo: "Beatriz Souza",
-        descricao: "Beatriz Souza é uma judoca brasileira que se destacou nos Jogos Olímpicos de Paris 2024, conquistando a medalha de ouro e inspirando novas gerações de atletas.",
-        link: "https://pt.wikipedia.org/wiki/Beatriz_Souza",
-        tags: "judô judo judoca judoka"
-    },
-    {
-        titulo: "Rebeca Andrade",
-        descricao: "Rebeca Andrade é uma ginasta brasileira que conquistou o mundo com suas acrobacias e força. Aos poucos anos, ela já coleciona títulos e é considerada uma das maiores ginastas da história do Brasil.",
-        link: "https://pt.wikipedia.org/wiki/Rebeca_Andrade",
-        tags: "ginástica ginastica ouro"
-    }
+  {
+    titulo: "Sigmund Freud",
+    descricao: "Considerado o pai da psicanálise, Sigmund Freud desenvolveu teorias revolucionárias sobre a mente humana e o inconsciente.",
+    link: "https://pt.wikipedia.org/wiki/Sigmund_Freud",
+    tags: "psicanálise inconsciente psicologia terapia"
+  },
+  {
+    titulo: "Carl Jung",
+    descricao: "Psicólogo suíço, conhecido por suas contribuições para a psicologia analítica e seus estudos sobre os arquétipos.",
+    link: "https://pt.wikipedia.org/wiki/Carl_Jung",
+    tags: "psicologia analítica arquétipos inconsciente"
+  },
+  {
+    // Adicione mais psicólogos aqui
+    titulo: "B. F. Skinner",
+    descricao: "Psicólogo behaviorista, conhecido por seus experimentos com animais e suas teorias sobre o condicionamento operante.",
+    link: "https://pt.wikipedia.org/wiki/B._F._Skinner",
+    tags: "behaviorismo condicionamento operante psicologia experimental"
+  }
 ];
