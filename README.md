@@ -1,39 +1,39 @@
-## Desvendando Atletas - Imersão Dev com Google Gemini
+# Psicólogos Famosos - Projeto de Pesquisa sobre Psicologia
 
-**O que essa aplicação faz?**
+## O que essa aplicação faz?
 
-Imagine que você é um super fã de esportes e quer saber tudo sobre seu atleta favorito ou sobre uma modalidade específica. Essa aplicação é a sua nova melhor amiga! Ela te ajuda a encontrar todas as informações que você precisa de forma rápida e fácil. 
+Se você está estudando psicologia ou simplesmente é curioso sobre os maiores nomes da história da psicologia, essa aplicação vai ser uma mão na roda! Ela ajuda a encontrar informações sobre 50 dos psicólogos mais influentes, com detalhes sobre suas contribuições e teorias.
 
-**Como ela funciona?**
+## Como ela funciona?
 
-1. **Digite e pesquise:** Você digita o nome do atleta ou esporte que você quer encontrar na caixinha de pesquisa.
-2. **Mágica acontece:** A aplicação vasculha um banco de dados gigante (que está no arquivo `dados.js`) e procura por tudo que tenha a ver com o que você digitou.
-3. **Resultados na tela:** Se a aplicação encontrar algo, ela mostra pra você um card com o nome do atleta, uma breve descrição e um link para saber mais. Se não encontrar nada, ela te avisa que não teve sorte dessa vez.
+1. **Digite e pesquise:** Basta digitar o nome do psicólogo que você quer conhecer na caixinha de pesquisa.
+2. **Busca instantânea:** A aplicação busca em um banco de dados extenso (armazenado no arquivo `dados.js`) e encontra todos os detalhes relacionados ao psicólogo ou tema pesquisado.
+3. **Resultados na tela:** Quando a pesquisa retorna um resultado, você vê um card com o nome do psicólogo, uma breve descrição sobre suas contribuições e um link para saber mais. Se não encontrar, você será notificado de que o psicólogo não está na lista (ainda!).
 
-**Tecnologias usadas:**
+## Tecnologias usadas:
 
-* HTML: A estrutura básica da página, como os títulos, botões e onde os resultados vão aparecer.
-* CSS: Deixa tudo bonitinho e organizado, com cores e fontes legais.
-* JavaScript: A parte mais inteligente da aplicação! É o JavaScript que faz a pesquisa, compara os dados e mostra os resultados na tela.
+- **HTML:** A estrutura base da página, onde estão os campos de pesquisa e onde os resultados serão exibidos.
+- **CSS:** Deixa a página visualmente agradável, com fontes, cores e disposição dos elementos.
+- **JavaScript:** O cérebro da aplicação! Ele realiza a busca, processa os dados e exibe os resultados de forma dinâmica na tela.
 
-**Como usar:**
+## Como usar:
 
-1. **Clone o repositório:** Faça um clone desse repositório no seu computador.
-2. **Abra o arquivo index.html:** Abra o arquivo `index.html` no seu navegador favorito.
-3. **Comece a pesquisar:** Digite o nome do atleta ou esporte e veja a mágica acontecer!
+1. **Clone o repositório:** Faça o clone desse repositório para o seu computador.
+2. **Abra o arquivo `index.html`:** No navegador de sua preferência, abra o arquivo `index.html`.
+3. **Pesquise seu psicólogo favorito:** Digite o nome de um psicólogo famoso e veja os resultados aparecerem magicamente!
 
-**Quer contribuir?**
+## Quer contribuir?
 
-Se você é um desenvolvedor e quer ajudar a melhorar essa aplicação, fique à vontade para abrir um pull request! 
+Se você é desenvolvedor e quer contribuir com o projeto, sinta-se à vontade para abrir um pull request!
 
-**Observações:**
+## Observações:
 
-* **Dados:** Os dados dos atletas estão no arquivo `dados.js`. Você pode adicionar mais dados aí se quiser.
-* **Design:** O design da página está no arquivo `style.css`. Se você quiser mudar as cores ou a fonte, é só editar esse arquivo.
-* **Funcionalidades:** A lógica da pesquisa está no arquivo `app.js`. Se você quiser adicionar mais funcionalidades, é só editar esse arquivo.
+- **Dados:** O arquivo `dados.js` contém as informações sobre os 50 psicólogos. Caso queira adicionar mais nomes ou atualizar as descrições, é só editar esse arquivo.
+- **Design:** As configurações de design estão no arquivo `style.css`. Se quiser modificar o layout, fontes ou cores, faça as mudanças nesse arquivo.
+- **Funcionalidade:** A lógica da busca está no arquivo `app.js`. Caso queira adicionar mais funcionalidades ou otimizar a aplicação, você pode modificar esse arquivo.
 
-**Dúvidas?**
+## Dúvidas?
 
-Se tiver alguma dúvida, pode abrir uma issue aqui no GitHub ou me mandar um email.
+Se tiver alguma dúvida, fique à vontade para abrir uma issue aqui no GitHub ou entre em contato por email.
 
-**Vamos juntos criar a maior base de dados de atletas do Brasil!**
+**Vamos juntos criar a maior base de dados de psicólogos famosos!**
