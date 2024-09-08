@@ -139,4 +139,9 @@ let dados = [
   },
   {
     titulo: "Philip Zimbardo",
-    descricao: "Conhecido pelo controverso Experimento da Prisão de Stanford, Zimbardo explorou como as circunstâncias podem influenciar o comportamento humano, levando indivíduos comuns a cometer atos incomuns
+    descricao: "Conhecido pelo controverso Experimento da Prisão de Stanford, Zimbardo explorou como as circunstâncias podem influenciar o comportamento humano, levando indivíduos comuns a cometer atos incomuns.",
+    link: "https://pt.wikipedia.org/wiki/Philip_Zimbardo",
+    tags: "psicologia social comportamento experimento prisao de stanford"
+  }
+  // Continue com outros psicólogos conforme necessário.
+];
