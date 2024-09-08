@@ -27,6 +27,7 @@ h1 {
   width: 100%;
   max-width: 600px;
   margin: 2rem 0 4rem; /* Aumenta o espaço entre a barra de pesquisa e o rodapé */
+  display: flex;
 }
 
 .search-bar input {
@@ -61,88 +62,59 @@ h1 {
   background-color: #1765c3;
 }
 
-.search-bar button img {
-  width: 20px;
-  height: 20px;
+/* Estilo específico para os resultados da pesquisa */
+.resultado {
+  width: 100%;
+  max-width: 700px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #dadce0;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.resultado:hover {
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.resultado h2 {
+  font-size: 1.5rem;
+  color: #1a73e8;
+  margin-bottom: 0.5rem;
+}
+
+.resultado h2 a {
+  text-decoration: none;
+  color: #1a73e8;
+}
+
+.resultado h2 a:hover {
+  text-decoration: underline;
+}
+
+.resultado p {
+  font-size: 1rem;
+  color: #4d5156;
+  margin-bottom: 1rem;
+}
+
+.resultado a {
+  font-size: 0.875rem;
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.resultado a:hover {
+  text-decoration: underline;
 }
 
 /* Rodapé */
 footer {
-  margin-top: auto; /* Garante que o rodapé fique no final da página */
-  padding: 2rem 0;  /* Adiciona espaçamento interno no rodapé */
+  margin-top: auto;
+  padding: 2rem 0;
   font-size: 0.875rem;
   color: #5f6368;
   text-align: center;
 }
-
-<div class="search-bar">
-  <input type="text" placeholder="Digite o nome do psicólogo">
-  <button>Pesquisar</button>
-</div>
-/* Estiliza a barra de pesquisa */
-.search-bar {
-  width: 100%;
-  max-width: 600px;
-  position: relative;
-  margin-bottom: 2rem;
-  display: flex;
-}
-
-.search-bar input {
-  width: 100%;
-  padding: 12px 20px;
-  border: 1px solid #dadce0;
-  border-radius: 24px;
-  font-size: 16px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  outline: none;
-  transition: box-shadow 0.2s ease-in-out;
-}
-
-.search-bar input:focus {
-  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
-}
-
-/* Estiliza o botão */
-.btn-search {
-  background-color: #1a73e8; /* Azul padrão do Google */
-  color: white;
-  border: none;
-  border-radius: 24px;
-  padding: 12px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s ease, box-shadow 0.2s ease;
-  margin-left: 10px;
-}
-
-.btn-search:hover {
-  background-color: #185abc; /* Tom mais escuro no hover */
-  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15); /* Sombra no hover */
-}
-
-.btn-search:focus {
-  outline: none;
-  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2); /* Sombra ao focar */
-}
-
-
-<div class="resultado">
-  <h2><a href="https://pt.wikipedia.org/wiki/Sigmund_Freud">Sigmund Freud</a></h2>
-  <p>Considerado o pai da psicanálise, Freud desenvolveu teorias revolucionárias sobre o inconsciente e a mente humana...</p>
-  <a href="https://pt.wikipedia.org/wiki/Sigmund_Freud">Mais informações</a>
-</div>
-
-<div class="resultado">
-  <h2><a href="https://pt.wikipedia.org/wiki/Karen_Horney">Karen Horney</a></h2>
-  <p>Psicanalista alemã que desafiou algumas das ideias de Freud, especialmente no que se refere à psicologia feminina...</p>
-  <a href="https://pt.wikipedia.org/wiki/Karen_Horney">Mais informações</a>
-</div>
-
-<!-- Mais resultados -->
-
-<footer>
-  2024 - Psicólogos Famosos. Todos os direitos reservados.<br>
-  Entre em contato pelo email: psicologiamsn@gmail.com
-</footer>
-
