@@ -1,93 +1,29 @@
-/* Estiliza o corpo da página */
-body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
-  color: #202124;
-}
-
-/* Estiliza os títulos h1 */
-h1 {
-  font-weight: 700;
-  font-size: 2.5rem;
-  color: #202124;
-  text-align: center;
-  margin: 3rem 0 2rem; /* Aumenta o espaço superior e inferior */
-}
-
-/* Estiliza a barra de pesquisa */
-.search-bar {
-  position: relative;
+/* Define um container centralizado com largura máxima */
+.container {
   width: 100%;
-  max-width: 600px;
-  margin: 2rem 0 4rem; /* Aumenta o espaço entre a barra de pesquisa e o rodapé */
-  display: flex;
+  max-width: 1200px; /* Largura máxima do site */
+  margin: 0 auto; /* Centraliza o container horizontalmente */
+  padding: 0 20px; /* Adiciona um pequeno espaçamento nas laterais */
 }
 
-.search-bar input {
-  width: 100%;
-  padding: 12px 20px;
-  border: 1px solid #dadce0;
-  border-radius: 24px;
-  font-size: 16px;
-  box-shadow: none;
-  transition: box-shadow 0.2s ease-in-out;
-}
-
-.search-bar input:focus {
-  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
-  outline: none;
-}
-
-.search-bar button {
-  position: absolute;
-  right: 10px;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: #1a73e8;
-  border: none;
-  border-radius: 50%;
-  padding: 10px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.search-bar button:hover {
-  background-color: #1765c3;
-}
-
-/* Estilo específico para os resultados da pesquisa */
 .resultado {
+  text-align: left;
   width: 100%;
   max-width: 700px;
-  padding: 1.5rem;
-  margin-bottom: 1.5rem;
-  border: 1px solid #dadce0;
-  border-radius: 12px;
-  background-color: #f9f9f9;
-  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
-  transition: box-shadow 0.3s ease;
-}
-
-.resultado:hover {
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-bottom: 1px solid #e0e0e0;
 }
 
 .resultado h2 {
   font-size: 1.5rem;
-  color: #1a73e8;
-  margin-bottom: 0.5rem;
+  color: #1a0dab;
+  margin: 0 0 0.5rem;
 }
 
 .resultado h2 a {
   text-decoration: none;
-  color: #1a73e8;
+  color: #1a0dab;
 }
 
 .resultado h2 a:hover {
@@ -97,7 +33,7 @@ h1 {
 .resultado p {
   font-size: 1rem;
   color: #4d5156;
-  margin-bottom: 1rem;
+  margin: 0 0 1rem;
 }
 
 .resultado a {
@@ -108,13 +44,4 @@ h1 {
 
 .resultado a:hover {
   text-decoration: underline;
-}
-
-/* Rodapé */
-footer {
-  margin-top: auto;
-  padding: 2rem 0;
-  font-size: 0.875rem;
-  color: #5f6368;
-  text-align: center;
 }
